@@ -1,7 +1,7 @@
 
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_Search}","click",function(sym,e){window.open("http://fsastockexchange.com/manager/listStocks","_self");});
+(function(symbolName){Symbol.bindElementAction(compId,symbolName,"${_Search}","click",function(sym,e){window.open("http://fsastockexchange.com/manager/listStocks","_blank");});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_Dashboard}","click",function(sym,e){window.open("http://fsastockexchange.com/welcome-page","_self");});
 //Edge binding end
